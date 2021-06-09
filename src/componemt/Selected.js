@@ -26,7 +26,7 @@ class Selected extends React.Component{
     render(){
         return(
             <div>
-                {/* <h1>'hgjhk</h1> */}
+                
                  <Card style={{ width: '18rem' }}>   
                  
                  <Modal
@@ -50,6 +50,7 @@ class Selected extends React.Component{
                     <p>
                     {this.props.des1}
                     </p>
+                    
                 </Modal.Body>
                 <Modal.Footer>
                     <Button onClick={this.close}>Close</Button>

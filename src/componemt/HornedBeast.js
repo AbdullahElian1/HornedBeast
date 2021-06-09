@@ -43,20 +43,7 @@ class HornedBeast extends React.Component{
 
     }
 
-    selectRender(){
-        
-        console.log('test');
-        return(
-            <Selected
-            title={this.props.title}
-            url={this.props.url}
-            des={this.props.des}
-
-             />  
-             
-        )
-        
-    }
+    
 
 
     
@@ -91,14 +78,10 @@ class HornedBeast extends React.Component{
             des1={this.props.des}
             clo={this.close}
 
-             />  
 
-                {/* <Selected
-                      
-                      close1={this.close}
-                    //   st={this.state.show}
-                /> */}
-                
+            
+
+             />  
                       
 
 
